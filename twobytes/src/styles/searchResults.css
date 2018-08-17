@@ -1,0 +1,98 @@
+/*Search Results Container*/
+.SearchResults {
+    display: relative;
+}
+
+/*Attribution always visible*/
+.SearchResults .logo{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.SearchResults > ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.Recipe {
+
+    border-bottom: 2px solid gray;
+    padding: 20px 55px 20px 55px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.recipeheader {
+    display: block;
+    overflow: hidden;
+}
+
+.recipename {
+    font-size: 2rem;
+    text-decoration: underline;
+    color: var(--bite-brown);
+    float: left;
+}
+
+.healthinfo {
+    float: left;
+}
+
+.healthinfo ul {
+    padding-left: 5px;
+}
+
+.healthinfo ul li {
+    display: inline;
+}
+
+/*bottom margin didn't work for some reason*/
+.recipeinfo, .recipeingredients {
+    margin-top: 10px;
+    color: var(--bite-brown);
+}
+
+.recipeinfo span {
+    margin-left: 8px;
+    margin-right: 6px;
+}
+
+.recipeinfo span:first-child {
+    margin-left: 0px;
+}
+
+.ingredientlines p {
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.ingredientlines p:first-child {
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+/*Each Health Label Button has its own template*/
+.HealthLabel {
+    display: inline-block;
+}
+
+.HealthLabel button {
+    background-color: orange;
+    color: white;
+    height: 22px;
+    border-radius: 11px;
+    border: 0px solid orange;
+    outline: none;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+.HealthLabel .vegeterian { background-color: hsl(133, 94%, 32%); }
+.HealthLabel .vegan { background-color: hsl(72, 77%, 60%); }
+.HealthLabel .peanut { background-color: hsl(29, 98%, 53%); }
+.HealthLabel .dairy { background-color: hsl(202, 100%, 56%); }
+.HealthLabel .gluten { background-color: hsl(39, 80%, 55%); }

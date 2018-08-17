@@ -1,0 +1,90 @@
+/* Parent Container */
+.SearchUI {
+    --button-height: 26px;
+    --button-rounding: calc( var(--button-height)/2);
+    width: 650px;
+    margin: auto;
+    padding: 5px;
+    padding-left: 70px;
+}
+
+/* SearchBar and SearchButton Containers
+Inline-block display makes them shrink to their child's size
+Then small enough to fit side by side */
+.SearchBar {
+    position: relative;
+    display: inline-block;
+}
+
+.SearchButton {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+/* SearchUI items with common properties
+must be consistent for the look */
+.SearchUI .search {
+    height: var(--button-height);
+    border-radius: var(--button-rounding);
+    border: none;
+    outline: none;
+    box-shadow: 0px 3px 2px hsl(0,0%,70%);
+}
+
+/* Searchbar and get results list button */
+.SearchBar input {
+    width: 530px;
+    background: white;
+    text-indent: 28px;
+    margin-right: 4px;
+}
+
+.SearchBar ::placeholder {
+    color: var(--bite-green);
+}
+
+#searchicon {
+    color: hsl(0,10%,70%);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#searchbutton {
+    background-color: var(--bite-green);
+    color: white;
+    padding: 0px 20px 0px 20px;
+}
+
+/* Filter Option Buttons */
+.FilterList ul li {
+    display: inline;
+}
+
+/*ul produces an indent by default*/
+.FilterList ul {
+    padding-left: 0;
+}
+
+
+.FilterList button {
+    background-color: var(--bite-green);
+    color: white;
+    height: var(--button-height);
+    border-radius: var(--button-rounding);
+    border: 2px solid var(--bite-green);
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.buttonx {
+	margin-left: 5px;
+    color: white;
+}
+
+.buttonx:hover {
+	color: var(--bite-brown);
+}

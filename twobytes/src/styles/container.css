@@ -1,0 +1,10 @@
+.Container {
+    border: 0px solid yellow;
+    width: 950px;
+    height: 100vh;
+    margin: auto;
+    margin-top: var(--header-height);
+    padding: 25px;
+    overflow: hidden;
+    background: white;
+}

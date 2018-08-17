@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Tajawal");
+@import url("https://fonts.googleapis.com/css?family=Ruluko");
+
+@import url('./styles/searchUI.css');
+@import url('./styles/searchResults.css');
+@import url('./styles/container.css');
+
+:root {
+    --bite-green: hsl(94, 41%, 58%);
+    --bite-brown: hsl(25, 76%, 31%);
+
+    --header-height: 100px;
+    font-size: 12px;
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ruluko', 'Tajawal', sans-serif;
+    background-image: url("./images/foodicons.svg");
+    background-repeat: repeat;
+}
+
+* {
+    font-family: 'Ruluko';
+}
+
+.headerbar {
+    background-color: var(--bite-green);
+    height: var(--header-height);
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}

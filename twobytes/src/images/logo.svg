@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="338px" height="138px" viewBox="0 0 338 138" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.650401551,1.20049326 C1.14931159,0.118722284 4.4528347,-0.0355911558 4.51490029,1.01997565 C4.55627734,1.72368686 5.60144443,24.4597387 7.65040155,69.2281311 L6.02980531,69.3038321 C2.48273545,24.56828 0.689600866,1.86716704 0.650401551,1.20049326 Z" id="path-1"></path>
+        <path d="M7.65040155,1.20049326 C7.61120224,1.86716704 5.81806765,24.56828 2.27099779,69.3038321 L0.650401551,69.2281311 C2.69935867,24.4597387 3.74452576,1.72368686 3.78590281,1.01997565 C3.8479684,-0.0355911558 7.15149151,0.118722284 7.65040155,1.20049326 Z" id="path-3"></path>
+        <filter x="-50.0%" y="-11.6%" width="200.0%" height="132.6%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M0.650401551,1.20049326 C1.14931159,0.118722284 4.4528347,-0.0355911558 4.51490029,1.01997565 C4.53621196,1.38242922 5.16733726,15.0771155 6.40827619,42.1040344 L3.89452232,42.3605113 C1.75200476,15.2645502 0.670631175,1.54454417 0.650401551,1.20049326 Z" id="path-6"></path>
+        <path d="M6.65040155,1.20049326 C6.63018272,1.54436059 5.5499467,15.2500035 3.40969349,42.3174221 L0.878403497,42.4122212 C2.12867664,15.1812288 2.76450974,1.38381361 2.78590281,1.01997565 C2.8479684,-0.0355911558 6.15149151,0.118722284 6.65040155,1.20049326 Z" id="path-8"></path>
+        <path d="M23.8029507,24.7398188 C37.3662909,24.7398188 46.8502521,14.0828747 46.8502521,0.936868083 C46.8502521,-0.308549196 0,-0.316023935 0,0.936868083 C0,14.0828747 10.2396105,24.7398188 23.8029507,24.7398188 Z" id="path-10"></path>
+        <filter x="-17.1%" y="-24.3%" width="134.2%" height="164.7%" filterUnits="objectBoundingBox" id="filter-11">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-16.0%" y="-22.2%" width="132.0%" height="160.6%" filterUnits="objectBoundingBox" id="filter-12">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="-2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.705882353   0 0 0 0 0.48627451  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M0.650401551,1.20049326 C1.14931159,0.118722284 4.4528347,-0.0355911558 4.51490029,1.01997565 C4.53621196,1.38242922 5.16733726,15.0771155 6.40827619,42.1040344 L3.89452232,42.3605113 C1.75200476,15.2645502 0.670631175,1.54454417 0.650401551,1.20049326 Z" id="path-13"></path>
+        <path d="M6.65040155,1.20049326 C6.63018272,1.54436059 5.5499467,15.2500035 3.40969349,42.3174221 L0.878403497,42.4122212 C2.12867664,15.1812288 2.76450974,1.38381361 2.78590281,1.01997565 C2.8479684,-0.0355911558 6.15149151,0.118722284 6.65040155,1.20049326 Z" id="path-15"></path>
+    </defs>
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chopstick-Org" transform="translate(258.000000, 70.000000) rotate(-325.000000) translate(-258.000000, -70.000000) translate(251.000000, 35.000000)">
+            <g id="Line-2-+-Line-2-Mask">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#684A2F" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <path d="M-1.5,10.25 L18.5,10.25" id="Line-2" stroke="#8EC164" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                <path d="M-1.5,13.25 L18.5,13.25" id="Line-2" stroke="#8EC164" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            </g>
+            <g id="Line-2-+-Line-2-Mask" transform="translate(6.000000, 0.000000)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Mask" fill="#684A2F" fill-rule="nonzero" xlink:href="#path-3"></use>
+                <path d="M-9.5,10.25 L10.5,10.25" id="Line-2" stroke="#8EC164" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-4)"></path>
+                <path d="M-9.5,13.25 L10.5,13.25" id="Line-2" stroke="#8EC164" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-4)"></path>
+            </g>
+        </g>
+        <g id="Logo-1" transform="translate(52.000000, 38.000000)">
+            <g id="Chopstick" filter="url(#filter-5)" transform="translate(38.552521, 21.626804) rotate(-325.000000) translate(-38.552521, -21.626804) translate(31.552521, 0.126804)">
+                <g id="Line-2-+-Line-2-Mask">
+                    <mask id="mask-7" fill="white">
+                        <use xlink:href="#path-6"></use>
+                    </mask>
+                    <use id="Mask" fill="#684A2F" fill-rule="nonzero" xlink:href="#path-6"></use>
+                    <path d="M-1.5,10.25 L18.5,10.25" id="Line-2" stroke="#8EC164" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-7)"></path>
+                    <path d="M-1.5,13.25 L18.5,13.25" id="Line-2" stroke="#8EC164" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-7)"></path>
+                </g>
+                <g id="Line-2-+-Line-2-Mask" transform="translate(7.000000, 0.000000)">
+                    <mask id="mask-9" fill="white">
+                        <use xlink:href="#path-8"></use>
+                    </mask>
+                    <use id="Mask" fill="#684A2F" fill-rule="nonzero" xlink:href="#path-8"></use>
+                    <path d="M-10.5,10.25 L9.5,10.25" id="Line-2" stroke="#8EC164" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-9)"></path>
+                    <path d="M-10.5,13.25 L9.5,13.25" id="Line-2" stroke="#8EC164" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-9)"></path>
+                </g>
+            </g>
+            <g id="Bowl" transform="translate(0.000000, 29.000000)" fill-rule="nonzero">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                    <use fill="#E88B38" xlink:href="#path-10"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-10"></use>
+                    <use stroke="#684A2F" stroke-width="2" xlink:href="#path-10"></use>
+                </g>
+                <path d="M33.9565617,20.278406 C39.78656,20.3838581 41.4339584,16.6985396 40.2390768,16.6387185 C37.4973031,16.501453 31.3388224,16.2761196 28.2390768,16.6387185 C26.6853546,16.8204682 28.1265634,20.172954 33.9565617,20.278406 Z" id="Oval-2" fill="#F2B47C" transform="translate(34.130557, 18.361585) rotate(-32.000000) translate(-34.130557, -18.361585) "></path>
+            </g>
+        </g>
+        <g id="Logo-2" transform="translate(142.000000, 38.000000)">
+            <g id="Chopstick" transform="translate(38.552521, 21.626804) rotate(-325.000000) translate(-38.552521, -21.626804) translate(31.552521, 0.126804)">
+                <g id="Line-2-+-Line-2-Mask">
+                    <mask id="mask-14" fill="white">
+                        <use xlink:href="#path-13"></use>
+                    </mask>
+                    <use id="Mask" fill="#684A2F" fill-rule="nonzero" xlink:href="#path-13"></use>
+                    <path d="M-1.5,10.25 L18.5,10.25" id="Line-2" stroke="#8EC164" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-14)"></path>
+                    <path d="M-1.5,13.25 L18.5,13.25" id="Line-2" stroke="#8EC164" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-14)"></path>
+                </g>
+                <g id="Line-2-+-Line-2-Mask" transform="translate(7.000000, 0.000000)">
+                    <mask id="mask-16" fill="white">
+                        <use xlink:href="#path-15"></use>
+                    </mask>
+                    <use id="Mask" fill="#684A2F" fill-rule="nonzero" xlink:href="#path-15"></use>
+                    <path d="M-10.5,10.25 L9.5,10.25" id="Line-2" stroke="#8EC164" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-16)"></path>
+                    <path d="M-10.5,13.25 L9.5,13.25" id="Line-2" stroke="#8EC164" stroke-linecap="square" fill-rule="nonzero" mask="url(#mask-16)"></path>
+                </g>
+            </g>
+            <g id="Bowl" transform="translate(0.000000, 29.000000)" fill-rule="nonzero">
+                <path d="M23.8029507,24.7398188 C37.3662909,24.7398188 46.8502521,14.0828747 46.8502521,0.936868083 C46.8502521,-0.308549196 0,-0.316023935 0,0.936868083 C0,14.0828747 10.2396105,24.7398188 23.8029507,24.7398188 Z" id="Oval" stroke="#684A2F" stroke-width="2" fill="#E88B38"></path>
+                <path d="M33.9565617,20.278406 C39.78656,20.3838581 41.4339584,16.6985396 40.2390768,16.6387185 C37.4973031,16.501453 31.3388224,16.2761196 28.2390768,16.6387185 C26.6853546,16.8204682 28.1265634,20.172954 33.9565617,20.278406 Z" id="Oval-2" fill="#F2B47C" transform="translate(34.130557, 18.361585) rotate(-32.000000) translate(-34.130557, -18.361585) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
