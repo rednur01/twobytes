@@ -1,6 +1,7 @@
 //----------  Imports  ----------//
 import React, { Component } from 'react';
 import Container from './components/container';
+import HeaderBar from './components/headerBar';
 
 //Icons - Font Awesome
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -12,7 +13,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <header className="headerbar"></header>
+                <HeaderBar />
                 <Container />
             </div>
         );

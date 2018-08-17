@@ -4,6 +4,7 @@
 @import url('./styles/searchUI.css');
 @import url('./styles/searchResults.css');
 @import url('./styles/container.css');
+@import url('./styles/headerBar.css');
 
 :root {
     --bite-green: hsl(94, 41%, 58%);
@@ -18,21 +19,10 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Ruluko', 'Tajawal', sans-serif;
-    background-image: url("./images/foodicons.svg");
+    background-image: url("./images/food.svg");
     background-repeat: repeat;
 }
 
 * {
     font-family: 'Ruluko';
-}
-
-.headerbar {
-    background-color: var(--bite-green);
-    height: var(--header-height);
-    width: 100%;
-    margin: 0px;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 2;
 }

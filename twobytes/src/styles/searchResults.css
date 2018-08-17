@@ -4,10 +4,13 @@
 }
 
 /*Attribution always visible*/
+.SearchResults .logobox {
+    position: relative;
+}
+
 .SearchResults .logo{
     display: inline-block;
     position: absolute;
-    bottom: 0;
     right: 0;
 }
 

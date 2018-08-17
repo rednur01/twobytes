@@ -10,7 +10,9 @@ class SearchResults extends Component {
                         <li><Recipe recipe={recipe}/></li>
                     )}
                 </ul>
-                <div className="logo"><div id="edamam-badge" data-color="white"></div></div>
+                <div className="logobox">
+                    <div className="logo"><div id="edamam-badge" data-color="white"></div></div>
+                </div>
             </div>
         );
   }
