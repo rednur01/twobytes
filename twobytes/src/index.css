@@ -21,6 +21,7 @@ body {
     font-family: 'Ruluko', 'Tajawal', sans-serif;
     background-image: url("./images/food.svg");
     background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 * {

@@ -1,5 +1,4 @@
 .HeaderBar {
-    border: 2px solid red;
     background-color: var(--bite-green);
     height: var(--header-height);
     width: 100%;
@@ -8,4 +7,33 @@
     top: 0px;
     left: 0px;
     z-index: 2;
+}
+
+.HeaderBar ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.HeaderBar ul li {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+    color: white;
+    text-shadow: 1px 3px 15px black;
+}
+
+#applogo {
+    height: 80px;
+    margin-top: 10px;
 }
