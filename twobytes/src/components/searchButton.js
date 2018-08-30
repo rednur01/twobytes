@@ -7,11 +7,11 @@ class SearchButton extends Component {
     }
 
     onPress() {
-        var item = document.getElementById('searchbox').value;
+        var items = document.getElementById('searchbox').value;
         document.getElementById('searchbox').value = '';
-        this.props.onAdd(item);
+        this.props.onAdd(items);
     }
-    
+
   render() {
     return (
       <div className="SearchButton">

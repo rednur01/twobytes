@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//import SearchButton from './searchButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class SearchBar extends Component {
@@ -11,9 +10,9 @@ class SearchBar extends Component {
     keyPressHandler(event) {
         const enterButtonCode = 13;
         if (event.keyCode === enterButtonCode) {
-            var item = document.getElementById('searchbox').value;
+            var items = document.getElementById('searchbox').value;
             document.getElementById('searchbox').value = '';
-            this.props.onAdd(item);
+            this.props.onAdd(items);
         }
     }
 
@@ -24,7 +23,6 @@ class SearchBar extends Component {
                 <input type="text" placeholder={this.props.placeholder}
                 className="search" id="searchbox"
                 onKeyUp={this.keyPressHandler}></input>
-
             </div>
         );
     }
