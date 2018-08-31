@@ -5,6 +5,6 @@
     margin: auto;
     margin-top: var(--header-height);
     padding: 25px;
-    overflow: hidden;
+    overflow: auto;
     background: white;
 }

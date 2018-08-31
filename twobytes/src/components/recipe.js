@@ -22,6 +22,7 @@ class Recipe extends Component {
 
                 <div className="ingredientlines">
                     {this.props.recipe.ingredients.map((ingredientline) => <p>{ingredientline}</p>)}
+                    <a href={this.props.recipe.url} target="_blank">See Recipe</a>
                 </div>
             </div>
         );

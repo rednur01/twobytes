@@ -10,16 +10,7 @@ class Container extends Component {
         this.onDelete = this.onDelete.bind(this);
         this.getRecipes = this.getRecipes.bind(this);
         this.state = {
-            ingredients: [
-                {
-                    id: shortid.generate(),
-                    name: 'chicken'
-                },
-                {
-                    id: shortid.generate(),
-                    name: 'pork'
-                }
-            ],
+            ingredients: [],
             recipes: [
                 {
                     name: 'Buffalo Wings',
@@ -34,7 +25,8 @@ class Container extends Component {
                         'Vegeterian',
                         'Peanut',
                         'Dairy'
-                    ]
+                    ],
+                    url: "www.google.com"
                 },
                 {
                     name: 'Banana Smoothie',
@@ -50,7 +42,8 @@ class Container extends Component {
                         'Vegan',
                         'Dairy',
                         'Gluten'
-                    ]
+                    ],
+                    url: "www.mozilla.com"
                 }
             ]
         };
@@ -63,7 +56,7 @@ class Container extends Component {
         items = items.split(',');
         items = items.map( item => item.trim().toLowerCase() );
 
-        items.map( item => {
+        items.forEach( item => {
             item !== "" &&
             ingredientNames.includes(item) === false &&
             ingredients.push({
@@ -91,7 +84,8 @@ class Container extends Component {
             headers: {"Content-Type": "application/json; charset=utf-8"},
             body: JSON.stringify(ingredients)
         });
-        var res = await res.json();
+        res = await res.json();
+        this.setState({recipes: res});
         console.log(res);
     }
 

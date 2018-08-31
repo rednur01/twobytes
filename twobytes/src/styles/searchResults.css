@@ -71,6 +71,11 @@
     margin-bottom: 2px;
 }
 
+.ingredientlines a {
+    color: var(--bite-brown);
+    font-weight: bold;
+}
+
 .ingredientlines p:first-child {
     margin-top: 8px;
     margin-bottom: 2px;
