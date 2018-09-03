@@ -5,9 +5,9 @@ class SearchResults extends Component {
     render() {
         return (
             <div className="SearchResults">
-                <ul>
+                <ul className="recipeList">
                     {this.props.recipes.map((recipe) =>
-                        <li><Recipe recipe={recipe}/></li>
+                        <li><Recipe recipe={recipe} toggleFavorite={this.props.toggleFavorite} /></li>
                     )}
                 </ul>
                 <div className="logobox">

@@ -11,41 +11,7 @@ class Container extends Component {
         this.getRecipes = this.getRecipes.bind(this);
         this.state = {
             ingredients: [],
-            recipes: [
-                {
-                    name: 'Buffalo Wings',
-                    servings: 2,
-                    calories: 255,
-                    timetocook: 25,
-                    ingredients: [
-                        'chicken wings',
-                        'buffalo sauce'
-                    ],
-                    health: [
-                        'Vegeterian',
-                        'Peanut',
-                        'Dairy'
-                    ],
-                    url: "www.google.com"
-                },
-                {
-                    name: 'Banana Smoothie',
-                    servings: 2,
-                    calories: 160,
-                    timetocook: 10,
-                    ingredients: [
-                        'banana',
-                        'milk',
-                        'yoghurt'
-                    ],
-                    health: [
-                        'Vegan',
-                        'Dairy',
-                        'Gluten'
-                    ],
-                    url: "www.mozilla.com"
-                }
-            ]
+            recipes: []
         };
     }
 
@@ -93,7 +59,7 @@ class Container extends Component {
         return (
             <div className="Container">
                 <SearchUI ingredients={this.state.ingredients} onAdd={this.onAdd} onDelete={this.onDelete}/>
-                <SearchResults recipes={this.state.recipes} />
+                <SearchResults recipes={this.state.recipes} toggleFavorite={this.props.toggleFavorite} />
             </div>
         );
   }
