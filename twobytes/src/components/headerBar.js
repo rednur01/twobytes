@@ -76,11 +76,11 @@ class HeaderBar extends Component {
             {/* All modals*/}
             {this.state.aboutModal && <AboutModal onClose={this.closeModal} />}
             {this.state.favoritesModal &&
-                <FavoritesModal onClose={this.closeModal} currentUser={ this.props.currentUser } favorites={this.props.favorites}/>
+                <FavoritesModal onClose={this.closeModal} currentUser={ this.props.currentUser } />
             }
             {this.state.loginModal &&
                 <LoginModal onClose={this.closeModal} currentUser={ this.props.currentUser }
-                            login={this.login} logout={this.logout}/>
+                            login={this.login} logout={this.logout} />
             }
             </div>
         );

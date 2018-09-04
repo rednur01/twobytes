@@ -52,7 +52,6 @@ class Container extends Component {
         });
         res = await res.json();
         this.setState({recipes: res});
-        console.log(res);
     }
 
     render() {

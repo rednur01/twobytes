@@ -13,11 +13,11 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            currentUser: '',
-            favorites: []
+            currentUser: ''
         };
         this.setUser = this.setUser.bind(this);
         this.toggleFavorite = this.toggleFavorite.bind(this);
+        this.toggleFavoriteLocal = this.toggleFavoriteLocal.bind(this);
     }
 
     setUser(name) {
@@ -26,14 +26,32 @@ class App extends Component {
             this.setState({ favorites: [] });
         }
     }
-
-    toggleFavorite(recipe) {
+    // Local state favorites
+    toggleFavoriteLocal(recipe) {
         if (this.state.currentUser !== '') {
             let favorites = this.state.favorites;
             if ( !favorites.includes(recipe) ) {
                 favorites.push(recipe);
                 this.setState({ favorites: favorites });
             }
+        }
+    }
+
+    //Server side favorites, will persist
+    async toggleFavorite( recipe ) {
+        if (this.state.currentUser !== '') {
+            let favorite = {
+                user: this.state.currentUser,
+                recipe: recipe
+            };
+            var res = await fetch("http://localhost:5000/favorite", {
+                method: "POST",
+                mode: "cors",
+                headers: {"Content-Type": "application/json; charset=utf-8"},
+                body: JSON.stringify( favorite )
+            });
+            res = await res.text();
+            console.log(res);
         }
     }
 
